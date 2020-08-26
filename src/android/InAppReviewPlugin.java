@@ -54,7 +54,7 @@ public class InAppReviewPlugin extends CordovaPlugin {
      *
      * @param callbackContext The callback context used when calling back into JavaScript.
      */
-    private void showInAppReviewFlow(final CallbackContext callbackContext) {
+    private void showInAppReviewFlow(CallbackContext callbackContext) {
         final ReviewManager manager = ReviewManagerFactory.create(cordova.getActivity());
         Task<ReviewInfo> request = manager.requestReviewFlow();
         request.addOnCompleteListener(new OnCompleteListener<ReviewInfo>() {
