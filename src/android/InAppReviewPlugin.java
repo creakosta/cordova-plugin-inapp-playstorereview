@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
-import com.google.android.play.core.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
 import org.apache.cordova.CallbackContext;
