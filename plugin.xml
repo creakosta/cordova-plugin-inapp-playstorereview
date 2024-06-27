@@ -14,7 +14,6 @@
     </config-file>
     <config-file parent="/*" target="AndroidManifest.xml"/>
     <source-file src="src/android/InAppReviewPlugin.java" target-dir="src/com/swayangjit/review"/>
-    <preference default="1.9.1" name="PLAY_CORE_VERSION" />
-    <framework src="com.google.android.play:core:$PLAY_CORE_VERSION" />
+    <framework custom="true" src="src/android/android-play-review.gradle" type="gradleReference" />
   </platform>
 </plugin>
